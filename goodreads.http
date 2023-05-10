@@ -1,0 +1,29 @@
+GET http://localhost:3000/books/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrYm5hd2F6IiwiaWF0IjoxNjgzNzQyNTIzfQ.e1dxmfeD3tyIXDcPf3i1CU03uLvgvwq2lOpM0uWzviM
+
+###
+
+GET http://localhost:3000/books/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNrYm5hd2F6IiwiaWF0IjoxNjgzNzQyNTIzfQ.e1dxmfeD3tyIXDcPf3i1CU03uLvgvwq2lOpM0uWzviM
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{    
+    "username": "skbnawaz",
+    "password": "skbnawaz123",
+    "gender":"male",
+    "location":"Anantapur"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{    
+    "username": "skbnawaz",
+    "password": "skbnawaz123"
+}
